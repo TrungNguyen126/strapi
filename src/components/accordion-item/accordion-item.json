@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_accordion_item_accordion_items",
+  "info": {
+    "displayName": "Accordion-Item",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "What is an NFT?"
+    },
+    "desc": {
+      "type": "string",
+      "regex": "NFTs or non-fungible tokens, are cryptographic assets on blockchain with unique identification codes and metadata that distinguish them from each other. NFTs are unique and not mutually interchangeable, which means no two NFTs are the same.",
+      "default": "NFTs or non-fungible tokens, are cryptographic assets on blockchain with unique identification codes and metadata that distinguish them from each other. NFTs are unique and not mutually interchangeable, which means no two NFTs are the same."
+    }
+  }
+}

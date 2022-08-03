@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "create_and_sells",
+  "info": {
+    "singularName": "create-and-sell",
+    "pluralName": "create-and-sells",
+    "displayName": "Create And Sell"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Create And Sell Your NFTs"
+    },
+    "CreateAndSell": {
+      "type": "component",
+      "repeatable": true,
+      "component": "create-and-sell.create-and-sell"
+    }
+  }
+}

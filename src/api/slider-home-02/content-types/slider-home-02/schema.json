@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "slider_home_02s",
+  "info": {
+    "singularName": "slider-home-02",
+    "pluralName": "slider-home-02s",
+    "displayName": "Slider Home 02"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner-slides-item.banner-slides-item"
+    }
+  }
+}

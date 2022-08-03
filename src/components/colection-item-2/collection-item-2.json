@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_colection_item_2_collection_item_2s",
+  "info": {
+    "displayName": "Collection Item 2",
+    "icon": "sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "img1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img4": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img5": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imgAuthor": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "default": "Creative Art Collection"
+    },
+    "nameAuthor": {
+      "type": "string",
+      "default": "Ralph Garraway"
+    }
+  }
+}

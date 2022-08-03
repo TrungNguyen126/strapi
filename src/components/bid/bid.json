@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_bid_bids",
+  "info": {
+    "displayName": "bid",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nameAuthor": {
+      "type": "string",
+      "default": "Mason Woodward"
+    },
+    "imgAuthor": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "price": {
+      "type": "string",
+      "default": "4.89 ETH"
+    },
+    "priceChange": {
+      "type": "string",
+      "default": "$12.246"
+    }
+  }
+}

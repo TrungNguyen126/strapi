@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "item_details",
+  "info": {
+    "singularName": "item-detail",
+    "pluralName": "item-details",
+    "displayName": "Item Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "“The Fantasy Flower illustration ”"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nameOwner": {
+      "type": "string",
+      "default": "Ralph Garraway"
+    },
+    "imgOwner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nameAuthor": {
+      "type": "string",
+      "default": "Freddie Carpenter"
+    },
+    "imgAuthor": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Desc": {
+      "type": "text",
+      "default": "Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed ipsum vitae ipsum malesuada. Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed ipsum"
+    }
+  }
+}

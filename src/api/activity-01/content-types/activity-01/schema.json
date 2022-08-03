@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "activity_01s",
+  "info": {
+    "singularName": "activity-01",
+    "pluralName": "activity-01s",
+    "displayName": "Activity 01",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Activity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "activity.activity"
+    }
+  }
+}

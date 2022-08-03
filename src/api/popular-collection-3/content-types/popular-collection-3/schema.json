@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "popular_collection_3s",
+  "info": {
+    "singularName": "popular-collection-3",
+    "pluralName": "popular-collection-3s",
+    "displayName": "Popular Collection 3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Popular Collection"
+    },
+    "Collection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "collection-item.collection"
+    }
+  }
+}

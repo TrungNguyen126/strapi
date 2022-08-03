@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_1s",
+  "info": {
+    "singularName": "contact-1",
+    "pluralName": "contact-1s",
+    "displayName": "Contact 1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Drop Up A Message"
+    },
+    "subHeading": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit."
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Message": {
+      "type": "component",
+      "repeatable": false,
+      "component": "message.message"
+    }
+  }
+}

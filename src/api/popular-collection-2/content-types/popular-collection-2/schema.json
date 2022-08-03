@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "popular_collection_2s",
+  "info": {
+    "singularName": "popular-collection-2",
+    "pluralName": "popular-collection-2s",
+    "displayName": "Popular Collection 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Popular Collection"
+    },
+    "btn": {
+      "type": "string",
+      "default": "EXPLORE MORE"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/explore-01"
+    },
+    "Collection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "colection-item-2.collection-item-2"
+    }
+  }
+}

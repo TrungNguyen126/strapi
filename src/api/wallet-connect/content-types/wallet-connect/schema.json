@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "wallet_connects",
+  "info": {
+    "singularName": "wallet-connect",
+    "pluralName": "wallet-connects",
+    "displayName": "Wallet Connect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Connect Your Wallet"
+    },
+    "subHeading": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit."
+    },
+    "WalletConnect": {
+      "displayName": "Wallet Connect",
+      "type": "component",
+      "repeatable": true,
+      "component": "wallet-connect-item.wallet-connect"
+    }
+  }
+}

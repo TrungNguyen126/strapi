@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_quick_links_footer_quick_links",
+  "info": {
+    "displayName": "Footer-Quick-Links",
+    "icon": "arrow-alt-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

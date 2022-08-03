@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "today_picks",
+  "info": {
+    "singularName": "today-pick",
+    "pluralName": "today-picks",
+    "displayName": "Today Pick",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Today's Picks"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "EXPLORE MORE"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/explore-03"
+    },
+    "Product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-item-2.card-product-2"
+    }
+  }
+}

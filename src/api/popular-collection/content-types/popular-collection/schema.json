@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "popular_collections",
+  "info": {
+    "singularName": "popular-collection",
+    "pluralName": "popular-collections",
+    "displayName": "Popular Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Collection": {
+      "displayName": "Collection",
+      "type": "component",
+      "repeatable": true,
+      "component": "collection-item.collection"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Popular Collection"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "EXPLORE MORE"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/authors-02"
+    }
+  }
+}

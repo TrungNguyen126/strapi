@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_product_item_card_products",
+  "info": {
+    "displayName": "Card Product",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "default": "Hamlet Contemplates Contemplates"
+    },
+    "tag": {
+      "type": "string",
+      "default": "BSC"
+    },
+    "imgAuthor": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nameAuthor": {
+      "type": "string",
+      "default": "SalvadorDali"
+    },
+    "posittionAuthor": {
+      "type": "string",
+      "default": "Creator"
+    },
+    "price": {
+      "type": "string",
+      "default": "4.89 ETH"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Place Bid"
+    }
+  }
+}

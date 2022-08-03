@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_banner_slides_item_banner_slides_items",
+  "info": {
+    "displayName": "Slides-Item",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string",
+      "default": "Marketplace for monster character cllections non fungible token NFTs"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/explore-01",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Explore",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "btnText2": {
+      "type": "string",
+      "default": "Create"
+    },
+    "btnLink2": {
+      "type": "string",
+      "default": "/create-item"
+    },
+    "heading": {
+      "type": "richtext",
+      "default": "<h1 class=\"heading\">Discover, find,</h1><h1 class=\"heading mb-style\"><span class=\"tf-text s1\">Sell extraordinary</span></h1><h1 class=\"heading\">Monster NFTs</h1>"
+    }
+  }
+}

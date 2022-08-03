@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "Author",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Author Profile"
+    },
+    "title": {
+      "type": "string",
+      "default": "Trista Francis"
+    },
+    "des": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit."
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-social.footer-social"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Follow"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/login"
+    },
+    "price": {
+      "type": "string",
+      "default": "214.2 ETH"
+    }
+  }
+}

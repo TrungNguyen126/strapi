@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_wallet_connect_item_wallet_connects",
+  "info": {
+    "displayName": "Wallet Connect",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "default": "Meta Mask"
+    },
+    "des": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+    }
+  }
+}
